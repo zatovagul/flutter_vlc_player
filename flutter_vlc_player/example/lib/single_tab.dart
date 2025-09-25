@@ -29,20 +29,20 @@ class _SingleTabState extends State<SingleTab> {
     const VideoData(
       name: 'Network Video 1',
       path:
-          'http://samples.mplayerhq.hu/MPEG-4/embedded_subs/1Video_2Audio_2SUBs_timed_text_streams_.mp4',
+          'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
       type: VideoType.network,
     ),
     //
     const VideoData(
       name: 'Network Video 2',
-      path: 'https://media.w3.org/2010/05/sintel/trailer.mp4',
+      path: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
       type: VideoType.network,
     ),
     //
     const VideoData(
       name: 'HLS Streaming Video 1',
       path:
-          'http://demo.unified-streaming.com/video/tears-of-steel/tears-of-steel.ism/.m3u8',
+          'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
       type: VideoType.network,
     ),
     //

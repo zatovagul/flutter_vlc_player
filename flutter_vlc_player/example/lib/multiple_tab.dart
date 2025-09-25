@@ -15,9 +15,9 @@ class _MultipleTabState extends State<MultipleTab> {
   List<VlcPlayerController> controllers = <VlcPlayerController>[];
 
   List<String> urls = [
-    'https://www.tomandjerryonline.com/Videos/Ford%20Mondeo%20-%20Tom%20and%20Jerry.mov',
-    'https://www.tomandjerryonline.com/Videos/TomAndJerryTales_HQ.wmv',
-    'https://www.tomandjerryonline.com/Videos/tjpb1.mov',
+    'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+    'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+    'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
   ];
 
   bool showPlayerControls = true;
